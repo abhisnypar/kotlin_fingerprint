@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KotlinProject</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_hint">enter password</string>
+    <string name="username_hint">enter username</string>
+    <string name="button_login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TOGGLE_CREDENTIAL_AUTOFILL">Link your fingerprint for faster, easier access to your account.\n\nConfirm fingerprint to continue.</string>
+    <string name="touhscreen">Touch Screen</string>
+    <string name="USE_PASSWORD">Use Password</string>
+</resources>

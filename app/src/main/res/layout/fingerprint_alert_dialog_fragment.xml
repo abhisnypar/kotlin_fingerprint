@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/fragment_padding_bottom"
+    android:paddingEnd="@dimen/fragment_padding"
+    android:paddingStart="@dimen/fragment_padding"
+    android:paddingTop="@dimen/fragment_padding_top">
+
+    <TextView
+        android:id="@+id/alertDialog_Message"
+        style="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/fingerprint_status"
+        android:text="@string/TOGGLE_CREDENTIAL_AUTOFILL"
+        android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+        tools:ignore="NewApi" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/alertDialog_Message"
+        android:layout_marginTop="@dimen/fragment_margin_top"
+        android:src="@mipmap/ic_fp" />
+
+    <TextView
+        android:id="@+id/fingerprint_status"
+        style="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="@dimen/fragment_padding_top"
+        android:layout_toEndOf="@+id/imageView"
+        android:gravity="center_vertical"
+        android:text="@string/touhscreen" />
+
+</RelativeLayout>

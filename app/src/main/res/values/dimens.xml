@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="button_margin_top">100dp</dimen>
+
+    <!-- Fingerprint fragment dimensions -->
+    <dimen name="fragment_padding_bottom_small">4dp</dimen>
+    <dimen name="fragment_padding_bottom">8dp</dimen>
+    <dimen name="fragment_padding_top_small">10dp</dimen>
+    <dimen name="fragment_padding_small">12dp</dimen>
+    <dimen name="fragment_padding_top">16dp</dimen>
+    <dimen name="fragment_margin_top">20dp</dimen>
+    <dimen name="fragment_padding">24dp</dimen>
+</resources>
